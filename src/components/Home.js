@@ -4,7 +4,7 @@ import Rightside_component from "./HomeComponents/Rightside_component";
 import Middle_component from "./HomeComponents/Middle_component";
 
 function Home() {
-    const [color, setColor] = useState("red");
+    const [color, setColor] = useState("wahaj siddiqui");
 
     return (
         <>
