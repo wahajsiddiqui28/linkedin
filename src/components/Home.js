@@ -1,19 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Leftside_component from "./HomeComponents/Leftside_component";
 import Rightside_component from "./HomeComponents/Rightside_component";
 import Center from './HomeComponents/Center';
 
 function Home() {
-    const [color, setColor] = useState("wahaj siddiqui");
 
     return (
         <>
         <div className='container'>
-            <div className='row'>
+            <div className='row mt-4'>
                 <div className='col-lg-3'>
                     <Leftside_component/>
                 </div>
-                <div className='col-lg-3'>
+                <div className='col-lg-6'>
                     <Center/>
                 </div>
                 <div className='col-lg-3'>
@@ -29,13 +28,7 @@ function Home() {
                 </div>
             </div>
         </div>
-            <div className='container'>
-                <div>Home {color} </div>
-                <button
-                    type="button"
-                    onClick={() => setColor("blue")}
-                >Blue</button>
-            </div>
+        
         </>
     )
 }
