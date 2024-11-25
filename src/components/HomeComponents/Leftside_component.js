@@ -8,7 +8,7 @@ function Leftside_component() {
         <div className='cover-image'>
           <img src={coverimage}  />
           <div className='profile-image'>
-            <img src={profileimage}  />
+            <img src={profileimage} alt='left'  />
           </div>
         </div>
         <div className='emp-title'>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Leftside_component from "./HomeComponents/Leftside_component";
 import Rightside_component from "./HomeComponents/Rightside_component";
-import Middle_component from "./HomeComponents/Middle_component";
+import Center from './HomeComponents/Center';
 
 function Home() {
     const [color, setColor] = useState("wahaj siddiqui");
@@ -14,7 +14,7 @@ function Home() {
                     <Leftside_component/>
                 </div>
                 <div className='col-lg-3'>
-                    <Middle_component/>
+                    <Center/>
                 </div>
                 <div className='col-lg-3'>
                     <Rightside_component/>
