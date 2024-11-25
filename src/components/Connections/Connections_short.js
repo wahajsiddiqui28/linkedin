@@ -14,7 +14,7 @@ function Connections_short(props) {
                 <div className='connections-bio'>
                     <h6 className='mb-0'> {props.name} </h6>
                     <p className='mb-2'> <span> {props.subskills} </span></p>
-                    <button className='btn btn-my-cls'> <FaPlus/> Follow </button>
+                    <button className='btn btn-my-cls'> <FaPlus/> {props.follow} </button>
                 </div>
             </div>
         </div>

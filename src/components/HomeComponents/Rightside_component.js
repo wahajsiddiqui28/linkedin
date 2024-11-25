@@ -15,10 +15,10 @@ function Rightside_component() {
           <li> <BsInfoSquareFill style={{fontSize: "12px"}} /></li>
         </ul>
           <div className='connections-d'>
-            <Connections_short  name="Hafsa Ahsan" subskills="HR Generalist || HR Executive || Talent Acquisition|| Recruiter" empimage={Image2} />
-            <Connections_short name="Ram Maheshwari" subskills="150K+ | Open To Collaborations & Opportunities | Web Developer | HTML" empimage={Image1} />
-            <Connections_short  name="Hafsa Ahsan" subskills="HR Generalist || HR Executive || Talent Acquisition|| Recruiter" empimage={Image2} />
-            <Connections_short name="Ram Maheshwari" subskills="150K+ | Open To Collaborations & Opportunities | Web Developer | HTML" empimage={Image1} />
+            <Connections_short  name="Hafsa Ahsan" subskills="HR Generalist || HR Executive || Talent Acquisition|| Recruiter" empimage={Image2} follow="Follow" />
+            <Connections_short name="Ram Maheshwari" subskills="150K+ | Open To Collaborations & Opportunities | Web Developer | HTML" empimage={Image1}  follow="Follow"  />
+            <Connections_short  name="Hafsa Ahsan" subskills="HR Generalist || HR Executive || Talent Acquisition|| Recruiter" empimage={Image2}  follow="Follow" />
+            <Connections_short name="Ram Maheshwari" subskills="150K+ | Open To Collaborations & Opportunities | Web Developer | HTML" empimage={Image1}  follow="Follow" />
           </div>
       </div>
     </>
