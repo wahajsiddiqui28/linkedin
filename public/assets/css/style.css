@@ -1,0 +1,30 @@
+body{
+    background-color: #F4F2EE;
+}
+
+/* gernal classes start  */
+.container{
+    width: 1128px;
+}
+/* gernal classes end */
+
+
+/* Header start  */
+header ul.navbar-nav li.nav-item {
+    text-align: center;
+    padding: 0 9px;
+    color: #666666;
+}
+header ul.navbar-nav li.nav-item a {
+    font-size: 13px;
+    padding-top: 0;
+}
+.header-logo a.navbar-brand svg.mercado-match {
+    width: 44px;
+    color: #0A66C2;
+}
+.search-form form.d-flex input.form-control {
+    padding: 6px 87px 6px 11px;
+    background-color: #EDF3F8;
+}
+/* Header end */
